@@ -1,0 +1,14 @@
+train  = data/crest-700/train.txt
+valid  = data/crest-700/test.txt
+backup = backup/crest-700
+mesh   = data/crest-700/crest.ply
+tr_range = data/crest-700/training_range.txt
+name = crest-700
+diam = 0.20611162024
+gpus = 0
+width = 1292
+height = 964
+fx = 1645.5688139249255
+fy = 1645.8970739488273
+u0 = 661.5807771034812
+v0 = 499.20161141187884

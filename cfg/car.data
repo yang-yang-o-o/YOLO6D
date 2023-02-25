@@ -1,0 +1,13 @@
+train  = D:\yangyang/car/train.txt
+valid  = D:\yangyang/car/test.txt
+backup = backup/car
+tr_range = D:\yangyang/car/training_range.txt
+name = car
+diam = 0.106
+gpus = 0
+width = 1292
+height = 964
+fx = 2.48193887e+03 
+fy = 2.47927468e+03
+u0 = 6.20551899e+02
+v0 = 5.15067909e+02

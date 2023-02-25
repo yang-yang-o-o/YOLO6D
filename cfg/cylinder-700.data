@@ -1,0 +1,14 @@
+train  = data/cylinder-700/train.txt
+valid  = data/cylinder-700/test.txt
+backup = backup/cylinder-700
+mesh   = data/cylinder-700/cylinder.ply
+tr_range = data/cylinder-700/training_range.txt
+name = cylinder-700
+diam = 0.11329607230614837
+gpus = 0
+width = 1292
+height = 964
+fx = 2.48193887e+03 
+fy = 2.47927468e+03
+u0 = 6.20551899e+02
+v0 = 5.15067909e+02

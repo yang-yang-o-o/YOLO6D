@@ -1,0 +1,14 @@
+train  = data/crest/train.txt
+valid  = data/crest/test.txt
+backup = backup/crest
+mesh   = data/crest/crest.ply
+tr_range = data/crest/training_range.txt
+name = crest
+diam = 0.20611162024
+gpus = 0
+width = 1292
+height = 964
+fx = 1645.5688139249255
+fy = 1645.8970739488273
+u0 = 661.5807771034812
+v0 = 499.20161141187884

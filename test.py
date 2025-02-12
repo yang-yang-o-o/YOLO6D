@@ -13,10 +13,10 @@ warnings.filterwarnings("ignore")
 import matplotlib.pyplot as plt
 import scipy.misc
 
-from darknet import Darknet
-import dataset
-from utils import *
-from MeshPly import MeshPly
+from model.darknet import Darknet
+import model.dataset as dataset
+from utils.utils import *
+# from MeshPly import MeshPly
 # import open3d as _3d
 import trimesh
 
@@ -289,7 +289,7 @@ def valid(datacfg, modelcfg, weightfile):
         scipy.io.savemat(predfile, {'R_gts': gts_rot, 't_gts':gts_trans, 'corner_gts': gts_corners2D, 'R_prs': preds_rot, 't_prs':preds_trans, 'corner_prs': preds_corners2D})
 
 if __name__ == "__main__":
-    obj_name = 'beer' ## 改这里即可
+    obj_name = 'beer'
     add_0_01 = False
 
     datacfg    = 'cfg/{}{}.data'.format(obj_name,'_0.01' if add_0_01 else '')

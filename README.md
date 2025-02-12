@@ -5,20 +5,18 @@
 YOLO6D is an open-source project aimed at 6D object pose estimation through object detection. Based on the YOLO architecture, YOLO6D combines deep learning and computer vision techniques to accurately predict the class, location, and pose of objects in images.
 
 
-<div style="display: flex;">
-  <div style="flex: 1.5; padding-right: 10px;">
-    <img src="assets/Demo_1.gif" alt="Demo 1" style="width: 100%; height: auto;">
-    <img src="assets/Demo_2.gif" alt="Demo 2" style="width: 100%; height: auto;">
+<!-- <div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="flex: 1; max-width: 45%;">
+    <img src="Demo_1.gif" alt="Demo 1" style="width: 100%; height: auto;">
+    <img src="Demo_2.gif" alt="Demo 2" style="width: 100%; height: auto;">
   </div>
-  <div style="flex: 1; padding-left: 10px;">
-    <img src="assets/Demo_3.gif" alt="Demo 3" style="width: 99%; height: 99%; object-fit: cover;">
+  <div style="flex: 1; max-width: 45%;">
+    <img src="Demo_3.gif" alt="Demo 3" style="width: 100%; height: auto;">
   </div>
-</div>
+</div> -->
 
-
-
-
-
+| ![Demo 1](assets/Demo_1.gif) | ![Demo 3](assets/Demo_3.gif)     |
+|-|-|
 
 ## Project Overview
 

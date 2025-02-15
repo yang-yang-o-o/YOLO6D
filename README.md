@@ -18,6 +18,9 @@ YOLO6D is an open-source project aimed at 6D object pose estimation through obje
 | ![Demo 1](assets/Demo_1.gif) | ![Demo 3](assets/Demo_3.gif)     |
 |-|-|
 
+| ![Demo 1](assets/Demo_2.gif) | ![Demo 3](assets/Demo_5.png)     |
+|-|-|
+
 ## Project Overview
 
 YOLO6D is an extension of the traditional YOLO model, specifically designed to solve the 6D pose estimation problem. This project leverages deep learning models for object detection and accurately predicts the spatial location and orientation of objects. YOLO6D is particularly useful in fields such as industrial automation, augmented reality, and robot navigation.
